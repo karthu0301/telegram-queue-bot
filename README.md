@@ -38,6 +38,10 @@ https://core.telegram.org/bots/tutorial
 
 ## Local deployment - Install Go (what version) and Postgres (what version)
 
+Install the Go parser at https://go.dev/doc/install
+Install a relatively up-to-date PostgreSQL runner at https://www.postgresql.org/download/windows/. For Mac users, I use https://postgresapp.com/, which may be considered.
+Within your coding environment (e.g. VSCode), run `go run cmd/server/main.go`. If any errors result, do check that you have updated your `.env` file appropriately (instructions above), that you have Postgres running, and that your bot token is valid.
+
 ## Remote deployment - Heroku
 
 
